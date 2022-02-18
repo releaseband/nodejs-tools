@@ -1,0 +1,14 @@
+node_modules/
+coverage/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.history/
+*.sublime-project
+*.sublime-workspace
+*.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+CHANGELOG.md
