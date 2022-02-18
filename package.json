@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-tools",
+  "version": "0.0.0",
+  "private": "true",
+  "author": "releaseband",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .js --fix",
+    "markdownlint": "markdownlint '**/*.md' --fix",
+    "commit": "cz",
+    "version": "changeset version",
+    "publish": "changeset publish",
+    "prepare": "is-ci || husky install"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.2",
+    "@changesets/cli": "^2.20.0",
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/cz-commitlint": "^16.2.1",
+    "@releaseband/commitlint-config": "workspace:*",
+    "@releaseband/eslint-config": "workspace:*",
+    "@releaseband/lint-staged-config": "workspace:*",
+    "@releaseband/markdownlint-config": "workspace:*",
+    "@releaseband/prettier-config": "workspace:*",
+    "commitizen": "^4.2.4",
+    "eslint": "^8.9.0",
+    "husky": "^7.0.4",
+    "inquirer": "^8.2.0",
+    "is-ci": "^3.0.1",
+    "lint-staged": "^12.3.4",
+    "markdownlint-cli": "^0.31.1",
+    "prettier": "^2.5.1"
+  },
+  "volta": {
+    "node": "16.14.0"
+  }
+}
