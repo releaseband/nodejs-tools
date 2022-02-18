@@ -1,0 +1,48 @@
+{
+  "name": "@releaseband/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint shareable config",
+  "author": "releaseband",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-sonarjs": "^0.11.0",
+    "prettier": "^2.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-sonarjs": "^0.11.0",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/releaseband/nodejs-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/releaseband/nodejs-tools/issues"
+  },
+  "homepage": "https://github.com/releaseband/nodejs-tools#readme",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ]
+}
