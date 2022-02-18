@@ -1,0 +1,41 @@
+{
+  "name": "@releaseband/commitlint-config",
+  "version": "1.0.0",
+  "description": "commitlint shareable config",
+  "author": "releaseband",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "@commitlint/config-conventional": "^16.0.0",
+    "fast-glob": "^3.2.11",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.1.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^16.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/releaseband/nodejs-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/releaseband/nodejs-tools/issues"
+  },
+  "homepage": "https://github.com/releaseband/nodejs-tools#readme",
+  "keywords": [
+    "commitlint",
+    "commitlint-config"
+  ]
+}
