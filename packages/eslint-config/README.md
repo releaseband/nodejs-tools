@@ -31,7 +31,7 @@ add script in `package.json`:
 ```json
 {
   "scripts": {
-    "lint": "eslint . --ext .js --fix"
+    "lint": "eslint --ext .js --fix ."
   }
 }
 ```
