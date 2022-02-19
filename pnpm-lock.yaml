@@ -104,6 +104,12 @@ importers:
     devDependencies:
       prettier: 2.5.1
 
+  packages/typescript-config:
+    specifiers:
+      typescript: ^4.5.5
+    devDependencies:
+      typescript: 4.5.5
+
 packages:
 
   /@babel/code-frame/7.16.7:

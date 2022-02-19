@@ -1,0 +1,36 @@
+{
+  "name": "@releaseband/typescript-config",
+  "version": "0.2.3",
+  "description": "typescript shareable config",
+  "author": "releaseband",
+  "license": "MIT",
+  "main": "config.jsonc",
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "config.jsonc"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/releaseband/nodejs-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/releaseband/nodejs-tools/issues"
+  },
+  "homepage": "https://github.com/releaseband/nodejs-tools#readme",
+  "keywords": [
+    "typescript",
+    "typescript-config"
+  ]
+}
