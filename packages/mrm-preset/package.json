@@ -1,0 +1,37 @@
+{
+  "name": "@releaseband/mrm-preset",
+  "version": "1.13.0",
+  "description": "mrm preset",
+  "author": "releaseband",
+  "license": "MIT",
+  "main": "config.json",
+  "scripts": {},
+  "dependencies": {
+    "husky": "^7.0.4",
+    "mrm-core": "^6.1.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "config.json",
+    "utils.js",
+    "*/index.js",
+    "*/templates"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/releaseband/nodejs-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/releaseband/nodejs-tools/issues"
+  },
+  "homepage": "https://github.com/releaseband/nodejs-tools#readme",
+  "keywords": [
+    "mrm",
+    "mrm-preset"
+  ]
+}

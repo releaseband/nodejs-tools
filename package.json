@@ -6,12 +6,13 @@
   "license": "MIT",
   "scripts": {
     "format": "prettier --write .",
-    "lint": "eslint . --ext .js --fix",
-    "markdownlint": "markdownlint '**/*.md' --fix",
-    "commit": "cz",
+    "lint": "eslint --ext .js --fix .",
+    "markdownlint": "markdownlint --fix '**/*.md'",
+    "test": "echo \"Test not implements!\"",
     "version": "changeset version",
     "publish": "changeset publish",
-    "prepare": "is-ci || husky install"
+    "prepare": "is-ci || husky install",
+    "commit": "cz"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.2",

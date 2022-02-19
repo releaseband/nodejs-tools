@@ -1,0 +1,25 @@
+{
+  "aliases": {
+    "js": [
+      "gitignore",
+      "husky",
+      "commitlint",
+      "markdownlint",
+      "prettier",
+      "eslint",
+      "lint-staged",
+      "github-action"
+    ],
+    "ts": [
+      "gitignore",
+      "husky",
+      "commitlint",
+      "markdownlint",
+      "prettier",
+      "eslint",
+      "lint-staged",
+      "github-action",
+      "typescript"
+    ]
+  }
+}
