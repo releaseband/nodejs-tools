@@ -17,6 +17,7 @@ const addIgnore = [
   '.history/',
   '*.sublime-project',
   '*.sublime-workspace',
+  '.changeset/',
   'CHANGELOG.md',
 ];
 
