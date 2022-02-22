@@ -10,8 +10,10 @@ const removeIgnore = ['node_modules'];
 const addIgnore = [
   'node_modules/',
   'coverage/',
+  'dist/',
   '.DS_Store',
   'Thumbs.db',
+  '.parcel-cache/',
   '.idea/',
   '.vscode/',
   '.history/',

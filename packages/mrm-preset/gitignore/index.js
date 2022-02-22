@@ -4,8 +4,10 @@ const remove = ['node_modules', 'pnpm-lock.yaml'];
 const add = [
   'node_modules/',
   'coverage/',
+  'dist/',
   '.DS_Store',
   'Thumbs.db',
+  '.parcel-cache/',
   '.idea/',
   '.vscode/',
   '.history/',
