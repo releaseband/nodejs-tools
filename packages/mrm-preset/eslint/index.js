@@ -8,6 +8,8 @@ const removeIgnore = ['node_modules'];
 const addIgnore = [
   'node_modules/',
   'coverage/',
+  'dist/',
+  '.parcel-cache/',
   '.idea/',
   '.vscode/',
   '.history/',
