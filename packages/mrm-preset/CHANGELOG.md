@@ -1,5 +1,11 @@
 # @releaseband/mrm-preset
 
+## 1.13.3
+
+### Patch Changes
+
+- [#10](https://github.com/releaseband/nodejs-tools/pull/10) [`533d527`](https://github.com/releaseband/nodejs-tools/commit/533d52774ab7c5c1978cfe112505801aba430596) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - install peer deps before install in all mrm tasks
+
 ## 1.13.2
 
 ### Patch Changes
