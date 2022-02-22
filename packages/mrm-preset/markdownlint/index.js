@@ -35,7 +35,7 @@ module.exports = function task() {
 
   install(configPackage, { dev: true, pnpm: true });
 
-  lines(ignoreFile).removeIgnore(removeIgnore).add(addIgnore).save();
+  lines(ignoreFile).remove(removeIgnore).add(addIgnore).save();
 };
 
 module.exports.description = 'Adds markdownlint';
