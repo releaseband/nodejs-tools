@@ -1,5 +1,11 @@
 # @releaseband/mrm-preset
 
+## 1.13.4
+
+### Patch Changes
+
+- [#12](https://github.com/releaseband/nodejs-tools/pull/12) [`3ef6418`](https://github.com/releaseband/nodejs-tools/commit/3ef6418d9b3dc576a5bf809cf2fbeb00c788abac) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - fix remove ignores
+
 ## 1.13.3
 
 ### Patch Changes
