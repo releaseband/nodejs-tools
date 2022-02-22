@@ -7,7 +7,7 @@ const configFile = '.lintstagedrc.js';
 const configPackage = '@releaseband/lint-staged-config';
 
 module.exports = function task() {
-  lines(configFile).set(`module.exports = require('${configPackage}');`).save();
+  lines(configFile).add(`module.exports = require('${configPackage}');`).save();
 
   const peerDeps = getPeerDeps(configPackage);
   install(peerDeps, { dev: true, pnpm: true });
