@@ -12,10 +12,10 @@ module.exports = function task() {
   pkg.setScript('type-check', 'tsc --noEmit');
   pkg.save();
 
-  install(configPackage, { dev: true, pnpm: true });
-
   const peerDeps = getPeerDeps(configPackage);
   install(peerDeps, { dev: true, pnpm: true });
+
+  install(configPackage, { dev: true, pnpm: true });
 };
 
 module.exports.description = 'Adds typescript config';
