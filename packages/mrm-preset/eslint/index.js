@@ -30,10 +30,10 @@ module.exports = function task({ eslintConfig }) {
   pkg.setScript('lint', 'eslint --ext .js,.jsx,.ts,.tsx --fix .');
   pkg.save();
 
-  install(configPackage, { dev: true, pnpm: true });
-
   const peerDeps = getPeerDeps(configPackage);
   install(peerDeps, { dev: true, pnpm: true });
+
+  install(configPackage, { dev: true, pnpm: true });
 
   lines(ignoreFile).remove(removeIgnore).add(addIgnore).save();
 };

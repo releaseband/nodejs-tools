@@ -19,10 +19,13 @@ module.exports = function task() {
   pkg.setScript('commit', 'cz');
   pkg.save();
 
-  install(packages, { dev: true, pnpm: true });
-
-  const peerDeps = getPeerDeps(commitlintConfigPackage);
+  let peerDeps = getPeerDeps(commitlintConfigPackage);
   install(peerDeps, { dev: true, pnpm: true });
+
+  peerDeps = getPeerDeps(commitizenConfigPackage);
+  install(peerDeps, { dev: true, pnpm: true });
+
+  install(packages, { dev: true, pnpm: true });
 
   husky.set('.husky/commit-msg', 'npx --no -- commitlint --edit $1');
 };

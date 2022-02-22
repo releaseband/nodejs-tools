@@ -32,10 +32,10 @@ module.exports = function task() {
   pkg.setScript('format', 'prettier --write .');
   pkg.save();
 
-  install(configPackage, { dev: true, pnpm: true });
-
   const peerDeps = getPeerDeps(configPackage);
   install(peerDeps, { dev: true, pnpm: true });
+
+  install(configPackage, { dev: true, pnpm: true });
 
   lines(ignoreFile).remove(removeIgnore).add(addIgnore).save();
 };
