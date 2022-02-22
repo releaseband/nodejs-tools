@@ -26,7 +26,7 @@ const addIgnore = [
 ];
 
 module.exports = function task() {
-  json(configFile, configPackage).save();
+  json(configFile, `"${configPackage}"`).save();
 
   const pkg = packageJson();
   pkg.setScript('format', 'prettier --write .');
