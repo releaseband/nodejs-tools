@@ -1,5 +1,11 @@
 # @releaseband/mrm-preset
 
+## 1.13.6
+
+### Patch Changes
+
+- [#16](https://github.com/releaseband/nodejs-tools/pull/16) [`9fd6a96`](https://github.com/releaseband/nodejs-tools/commit/9fd6a96f89e5143e7ed6c0d32b9d62e878adc46b) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - fix create config in prettier task
+
 ## 1.13.5
 
 ### Patch Changes
