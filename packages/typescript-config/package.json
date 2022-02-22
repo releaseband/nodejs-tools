@@ -4,7 +4,7 @@
   "description": "typescript shareable config",
   "author": "releaseband",
   "license": "MIT",
-  "main": "config.jsonc",
+  "main": "tsconfig.json",
   "scripts": {},
   "devDependencies": {
     "typescript": "^4.5.5"
@@ -16,7 +16,7 @@
     "node": ">=16.0.0"
   },
   "files": [
-    "config.jsonc"
+    "tsconfig.json"
   ],
   "publishConfig": {
     "access": "public"
