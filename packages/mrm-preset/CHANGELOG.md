@@ -1,5 +1,11 @@
 # @releaseband/mrm-preset
 
+## 1.13.5
+
+### Patch Changes
+
+- [#14](https://github.com/releaseband/nodejs-tools/pull/14) [`ce27a75`](https://github.com/releaseband/nodejs-tools/commit/ce27a759b436e805f218df006f673c2bc1f8cc6d) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - fix create config file in lint-stage task
+
 ## 1.13.4
 
 ### Patch Changes
