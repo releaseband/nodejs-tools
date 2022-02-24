@@ -111,7 +111,6 @@ importers:
 
   packages/eslint-config-typescript-react:
     specifiers:
-      '@releaseband/eslint-config-typescript': workspace:^1.0.4
       '@typescript-eslint/eslint-plugin': ^5.12.0
       '@typescript-eslint/parser': ^5.12.0
       eslint: ^8.9.0
@@ -131,7 +130,6 @@ importers:
       prettier: ^2.5.1
       typescript: ^4.5.5
     dependencies:
-      '@releaseband/eslint-config-typescript': link:../eslint-config-typescript
       eslint-config-airbnb: 19.0.4_cded826960a6a3d1bba2e72d77d93106
       eslint-config-airbnb-typescript: 16.1.0_f9b0c49af310072bbdee65353413f68f
     devDependencies:
