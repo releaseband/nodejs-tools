@@ -1,3 +1,4 @@
+const husky = require('husky');
 const { install, packageJson, json } = require('mrm-core');
 const { getPeerDeps } = require('../utils');
 
@@ -16,6 +17,8 @@ module.exports = function task() {
   install(peerDeps, { dev: true, pnpm: true });
 
   install(configPackage, { dev: true, pnpm: true });
+
+  husky.set('.husky/pre-commit', 'npx --no tsc --noEmit');
 };
 
 module.exports.description = 'Adds typescript config';

@@ -1,4 +1,4 @@
-const { packageJson, install, lines, json } = require('mrm-core');
+const { packageJson, install, lines } = require('mrm-core');
 const { getPeerDeps } = require('../utils');
 
 const configFile = '.prettierrc.json';
@@ -26,7 +26,10 @@ const addIgnore = [
 ];
 
 module.exports = function task() {
-  json(configFile, `"${configPackage}"`).save();
+  if (lines(configFile).exists()) {
+    lines(configFile).delete();
+  }
+  lines(configFile).add(`"${configPackage}"`).save();
 
   const pkg = packageJson();
   pkg.setScript('format', 'prettier --write .');
