@@ -7,10 +7,10 @@
   "main": "config.json",
   "scripts": {},
   "devDependencies": {
-    "markdownlint-cli": "^0.31.1"
+    "markdownlint-cli": "0.31.1"
   },
   "peerDependencies": {
-    "markdownlint-cli": "^0.31.1"
+    "markdownlint-cli": "0.31.1"
   },
   "engines": {
     "node": ">=16.0.0"
