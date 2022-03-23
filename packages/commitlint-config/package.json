@@ -1,6 +1,6 @@
 {
   "name": "@releaseband/commitlint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "commitlint shareable config",
   "author": "releaseband",
   "license": "MIT",

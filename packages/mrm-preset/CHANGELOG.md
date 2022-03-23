@@ -1,5 +1,11 @@
 # @releaseband/mrm-preset
 
+## 1.13.8
+
+### Patch Changes
+
+- [#20](https://github.com/releaseband/nodejs-tools/pull/20) [`51d21cd`](https://github.com/releaseband/nodejs-tools/commit/51d21cdf74e55804d7bc690fc271fa0abee41b49) Thanks [@neymanushka](https://github.com/neymanushka)! - versions lock
+
 ## 1.13.7
 
 ### Patch Changes
