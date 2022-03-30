@@ -1,5 +1,11 @@
 # @releaseband/eslint-config-typescript-react
 
+## 1.0.6
+
+### Patch Changes
+
+- [#22](https://github.com/releaseband/nodejs-tools/pull/22) [`89d38a2`](https://github.com/releaseband/nodejs-tools/commit/89d38a289adfa4028e067d7efda78833194c7785) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - add dep eslint-config-prettier
+
 ## 1.0.5
 
 ### Patch Changes
