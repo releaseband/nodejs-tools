@@ -1,5 +1,11 @@
 # @releaseband/eslint-config-typescript-react
 
+## 1.0.7
+
+### Patch Changes
+
+- [#24](https://github.com/releaseband/nodejs-tools/pull/24) [`4dfe9b3`](https://github.com/releaseband/nodejs-tools/commit/4dfe9b340cd77e6a01efae7cf5c2e3f0070f68c8) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - add import/no-extraneous-dependencies in eslint-config-typescript-react
+
 ## 1.0.6
 
 ### Patch Changes
