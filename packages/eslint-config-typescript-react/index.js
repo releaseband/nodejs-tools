@@ -15,14 +15,7 @@ module.exports = {
   ],
   plugins: ['simple-import-sort', 'sonarjs', 'tsdoc', 'jest', 'jest-formatting'],
   rules: {
-    'no-restricted-exports': [
-      'error',
-      {
-        restrictedNamedExports: [
-          'then', // this will cause tons of confusion when your module is dynamically `import()`ed, and will break in most node ESM versions
-        ],
-      },
-    ],
+    'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {
