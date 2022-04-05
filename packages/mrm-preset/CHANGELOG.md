@@ -1,5 +1,11 @@
 # @releaseband/mrm-preset
 
+## 1.13.9
+
+### Patch Changes
+
+- [#26](https://github.com/releaseband/nodejs-tools/pull/26) [`5f75946`](https://github.com/releaseband/nodejs-tools/commit/5f75946433213fb1189141b7d9024328036a858c) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - fix copy typescript config and add parserOptions in eslint config
+
 ## 1.13.8
 
 ### Patch Changes
