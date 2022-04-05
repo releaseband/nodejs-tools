@@ -1,5 +1,11 @@
 # @releaseband/eslint-config
 
+## 1.0.4
+
+### Patch Changes
+
+- [#28](https://github.com/releaseband/nodejs-tools/pull/28) [`253025a`](https://github.com/releaseband/nodejs-tools/commit/253025a85c8e4df4e841ad9312b4970e44fef6ab) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - off rule import/prefer-default-export
+
 ## 1.0.3
 
 ### Patch Changes

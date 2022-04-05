@@ -1,5 +1,13 @@
 # @releaseband/eslint-config-typescript-react
 
+## 1.0.9
+
+### Patch Changes
+
+- [#28](https://github.com/releaseband/nodejs-tools/pull/28) [`6b64e8d`](https://github.com/releaseband/nodejs-tools/commit/6b64e8d9baf4df58d6c47c8e09494af5f2f34770) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - add eslint rule no-restricted-exports
+
+* [#28](https://github.com/releaseband/nodejs-tools/pull/28) [`253025a`](https://github.com/releaseband/nodejs-tools/commit/253025a85c8e4df4e841ad9312b4970e44fef6ab) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - off rule import/prefer-default-export
+
 ## 1.0.8
 
 ### Patch Changes
