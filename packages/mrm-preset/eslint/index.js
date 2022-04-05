@@ -20,11 +20,15 @@ const addIgnore = [
 const eslintConfigList = ['javascript', 'typescript', 'typescript-react'];
 
 module.exports = function task({ eslintConfig }) {
+  const isTS = eslintConfig.includes('typescript');
+
   const configPackage = `@releaseband/eslint-config-${
     eslintConfig === 'javascript' ? '' : eslintConfig
   }`;
 
-  json(configFile, { extends: [configPackage] }).save();
+  const parserOptions = isTS ? { project: './tsconfig.json' } : undefined;
+
+  json(configFile, { extends: [configPackage], parserOptions }).save();
 
   const pkg = packageJson();
   pkg.setScript('lint', 'eslint --ext .js,.jsx,.ts,.tsx --fix .');
