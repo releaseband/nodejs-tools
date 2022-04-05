@@ -15,6 +15,7 @@ module.exports = {
   ],
   plugins: ['simple-import-sort', 'sonarjs', 'tsdoc', 'jest', 'jest-formatting'],
   rules: {
+    'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {
