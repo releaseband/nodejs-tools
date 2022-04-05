@@ -1,5 +1,11 @@
 # @releaseband/eslint-config-typescript-react
 
+## 1.0.8
+
+### Patch Changes
+
+- [#26](https://github.com/releaseband/nodejs-tools/pull/26) [`d4f4077`](https://github.com/releaseband/nodejs-tools/commit/d4f4077d36147b555d3f9d3074af8b54bcf7902c) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - update react/function-component-definition rule
+
 ## 1.0.7
 
 ### Patch Changes
