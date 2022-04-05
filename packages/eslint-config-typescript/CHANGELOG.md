@@ -1,5 +1,11 @@
 # @releaseband/eslint-config-typescript
 
+## 1.0.6
+
+### Patch Changes
+
+- [#28](https://github.com/releaseband/nodejs-tools/pull/28) [`253025a`](https://github.com/releaseband/nodejs-tools/commit/253025a85c8e4df4e841ad9312b4970e44fef6ab) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - off rule import/prefer-default-export
+
 ## 1.0.5
 
 ### Patch Changes
