@@ -55,7 +55,8 @@
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
 
-    "exactOptionalPropertyTypes": true,
+    // recommend to enable this
+    "exactOptionalPropertyTypes": false,
     "noImplicitOverride": true,
     "useUnknownInCatchVariables": true,
 
