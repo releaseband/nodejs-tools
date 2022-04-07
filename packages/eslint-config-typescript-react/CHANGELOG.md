@@ -1,5 +1,11 @@
 # @releaseband/eslint-config-typescript-react
 
+## 1.0.10
+
+### Patch Changes
+
+- [#30](https://github.com/releaseband/nodejs-tools/pull/30) [`e69389f`](https://github.com/releaseband/nodejs-tools/commit/e69389f8a69b444df6e08afd640fd8118db49780) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - disable esint rule react/prop-types
+
 ## 1.0.9
 
 ### Patch Changes
