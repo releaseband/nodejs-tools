@@ -1,5 +1,11 @@
 # @releaseband/typescript-config
 
+## 0.2.7
+
+### Patch Changes
+
+- [#30](https://github.com/releaseband/nodejs-tools/pull/30) [`dc403e3`](https://github.com/releaseband/nodejs-tools/commit/dc403e3a23c1a60dcec64a0bb132f09f9f34ba5b) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - disable exactOptionalPropertyTypes in typescript config
+
 ## 0.2.6
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@releaseband/typescript-config",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "typescript shareable config",
   "author": "releaseband",
   "license": "MIT",
