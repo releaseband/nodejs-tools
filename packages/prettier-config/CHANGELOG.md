@@ -1,5 +1,11 @@
 # @releaseband/prettier-config
 
+## 1.0.4
+
+### Patch Changes
+
+- [#32](https://github.com/releaseband/nodejs-tools/pull/32) [`4d93d63`](https://github.com/releaseband/nodejs-tools/commit/4d93d639fe97ba76d815c998e329ae46e658d9b0) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - use github npm registry
+
 ## 1.0.3
 
 ### Patch Changes
