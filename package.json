@@ -8,9 +8,9 @@
     "format": "prettier --write .",
     "lint": "eslint --ext .js --fix .",
     "markdownlint": "markdownlint --fix '**/*.md'",
-    "test": "echo \"Test not implements!\"",
     "version": "changeset version",
     "publish": "changeset publish",
+    "changeset": "changeset",
     "prepare": "is-ci || husky install",
     "commit": "cz"
   },
