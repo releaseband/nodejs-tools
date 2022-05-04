@@ -34,6 +34,7 @@ module.exports = {
     'simple-import-sort/exports': 'error',
     'tsdoc/syntax': 'warn',
     'react/prop-types': 'off',
+    'react/require-default-props': 'off',
     'react/function-component-definition': [
       'error',
       {
