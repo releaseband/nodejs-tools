@@ -9,6 +9,7 @@ const addIgnore = [
   'node_modules/',
   'coverage/',
   'dist/',
+  'build/',
   '.parcel-cache/',
   '.idea/',
   '.vscode/',
