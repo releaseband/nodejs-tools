@@ -1,5 +1,11 @@
 # @releaseband/eslint-config-typescript
 
+## 1.0.8
+
+### Patch Changes
+
+- [#34](https://github.com/releaseband/nodejs-tools/pull/34) [`1e4b924`](https://github.com/releaseband/nodejs-tools/commit/1e4b924798c14b54043b42b18431b78e882d8c82) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - remove lock deps and update deps
+
 ## 1.0.7
 
 ### Patch Changes
