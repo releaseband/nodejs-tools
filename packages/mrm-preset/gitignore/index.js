@@ -5,6 +5,7 @@ const add = [
   'node_modules/',
   'coverage/',
   'dist/',
+  'build/',
   '.DS_Store',
   'Thumbs.db',
   '.parcel-cache/',
@@ -16,6 +17,7 @@ const add = [
   '*.log',
   'package-lock.json',
   'yarn.lock',
+  '.env',
 ];
 
 module.exports = function task() {

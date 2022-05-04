@@ -11,6 +11,7 @@ const addIgnore = [
   'node_modules/',
   'coverage/',
   'dist/',
+  'build/',
   '.DS_Store',
   'Thumbs.db',
   '.parcel-cache/',
