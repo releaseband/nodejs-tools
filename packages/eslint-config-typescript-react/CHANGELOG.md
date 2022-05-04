@@ -1,5 +1,11 @@
 # @releaseband/eslint-config-typescript-react
 
+## 1.0.13
+
+### Patch Changes
+
+- [#36](https://github.com/releaseband/nodejs-tools/pull/36) [`d5167fb`](https://github.com/releaseband/nodejs-tools/commit/d5167fbc44265bfe5b0c4494e1b7a2a6a1c3919c) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - off eslint rule react/require-default-props
+
 ## 1.0.12
 
 ### Patch Changes
