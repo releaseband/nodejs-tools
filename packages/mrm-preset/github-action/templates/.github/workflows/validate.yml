@@ -35,9 +35,15 @@ jobs:
         with:
           node-version: 16
           cache: pnpm
+          registry-url: 'https://npm.pkg.github.com'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install dependencies
         run: pnpm install
+
+      - name: Type check
+        run: pnpm type-check
 
       - name: Lint
         run: pnpm lint
