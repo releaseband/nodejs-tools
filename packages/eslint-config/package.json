@@ -1,6 +1,6 @@
 {
   "name": "@releaseband/eslint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "eslint shareable config",
   "author": "releaseband",
   "license": "MIT",

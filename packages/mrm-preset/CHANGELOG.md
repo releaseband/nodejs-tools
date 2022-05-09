@@ -1,5 +1,11 @@
 # @releaseband/mrm-preset
 
+## 1.13.12
+
+### Patch Changes
+
+- [#38](https://github.com/releaseband/nodejs-tools/pull/38) [`3b800e4`](https://github.com/releaseband/nodejs-tools/commit/3b800e4c3c70412b836a676d91ee48fc5de15858) Thanks [@shumkovdenis](https://github.com/shumkovdenis)! - update eslint dep
+
 ## 1.13.11
 
 ### Patch Changes
