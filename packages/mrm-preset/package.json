@@ -7,7 +7,7 @@
   "main": "config.json",
   "scripts": {},
   "dependencies": {
-    "husky": "^7.0.4",
+    "husky": "^8.0.0",
     "mrm-core": "^7.0.0"
   },
   "engines": {
