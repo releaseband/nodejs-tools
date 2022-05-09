@@ -2,6 +2,7 @@
   "aliases": {
     "js": [
       "gitignore",
+      "gitattributes",
       "husky",
       "commitlint",
       "markdownlint",
@@ -12,6 +13,7 @@
     ],
     "ts": [
       "gitignore",
+      "gitattributes",
       "husky",
       "commitlint",
       "markdownlint",
