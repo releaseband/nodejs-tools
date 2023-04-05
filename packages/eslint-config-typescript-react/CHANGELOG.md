@@ -1,5 +1,11 @@
 # @releaseband/eslint-config-typescript-react
 
+## 2.0.0
+
+### Major Changes
+
+- [#44](https://github.com/releaseband/nodejs-tools/pull/44) [`85aea66`](https://github.com/releaseband/nodejs-tools/commit/85aea66a0012005cf2a670b4eb957a9dd1f6a24e) Thanks [@neymanushka](https://github.com/neymanushka)! - ts version changed
+
 ## 1.0.14
 
 ### Patch Changes
