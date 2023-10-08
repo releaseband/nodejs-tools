@@ -1,5 +1,11 @@
 # @releaseband/prettier-config
 
+## 1.0.6
+
+### Patch Changes
+
+- [#46](https://github.com/releaseband/nodejs-tools/pull/46) [`f7400d2`](https://github.com/releaseband/nodejs-tools/commit/f7400d25a9d68fdb9e1bcb8412d92ab39ae31009) Thanks [@ksv90](https://github.com/ksv90)! - deps updated
+
 ## 1.0.5
 
 ### Patch Changes
