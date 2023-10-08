@@ -23,9 +23,7 @@ const eslintConfigList = ['javascript', 'typescript', 'typescript-react'];
 module.exports = function task({ eslintConfig }) {
   const isTS = eslintConfig.includes('typescript');
 
-  const configPackage = `@releaseband/eslint-config-${
-    eslintConfig === 'javascript' ? '' : eslintConfig
-  }`;
+  const configPackage = `@releaseband/eslint-config-${eslintConfig === 'javascript' ? '' : eslintConfig}`;
 
   const parserOptions = isTS ? { project: './tsconfig.json' } : undefined;
 
@@ -51,9 +49,7 @@ module.exports.parameters = {
     default: 'javascript',
     choices: eslintConfigList.map((value) => ({ name: value, value })),
     validate(value) {
-      return eslintConfigList.includes(value)
-        ? true
-        : `eslintConfig available values: ${eslintConfigList.join(', ')}`;
+      return eslintConfigList.includes(value) ? true : `eslintConfig available values: ${eslintConfigList.join(', ')}`;
     },
   },
 };

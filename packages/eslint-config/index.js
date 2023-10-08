@@ -1,10 +1,5 @@
 module.exports = {
-  extends: [
-    'eslint:recommended',
-    'airbnb-base',
-    'plugin:prettier/recommended',
-    'plugin:sonarjs/recommended',
-  ],
+  extends: ['eslint:recommended', 'airbnb-base', 'plugin:prettier/recommended', 'plugin:sonarjs/recommended'],
   rules: {
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': [
