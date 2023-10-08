@@ -1,5 +1,11 @@
 # @releaseband/prettier-config
 
+## 1.0.7
+
+### Patch Changes
+
+- [#49](https://github.com/releaseband/nodejs-tools/pull/49) [`f86075e`](https://github.com/releaseband/nodejs-tools/commit/f86075ebfd76bde184069ed4265867c1021f8f9e) Thanks [@ksv90](https://github.com/ksv90)! - line width changed
+
 ## 1.0.6
 
 ### Patch Changes
