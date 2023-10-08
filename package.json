@@ -12,7 +12,9 @@
     "commit": "cz",
     "version": "changeset version",
     "publish": "changeset publish",
-    "changeset": "changeset"
+    "changeset": "changeset",
+    "type-check": "echo type-check",
+    "test": "echo test"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.4",
