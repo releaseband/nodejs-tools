@@ -1,3 +1,4 @@
 {
-  "extends": ["@releaseband/eslint-config"]
+  "extends": ["@releaseband/eslint-config"],
+  "ignorePatterns": ["**/*.d.ts"]
 }

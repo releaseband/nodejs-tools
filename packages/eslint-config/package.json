@@ -7,25 +7,23 @@
   "main": "index.js",
   "scripts": {},
   "dependencies": {
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.5.0"
+    "eslint-config-airbnb": "^19.0.4"
   },
   "devDependencies": {
-    "eslint": "^8.15.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-sonarjs": "^0.13.0",
-    "prettier": "^2.6.2"
+    "eslint": "^8.51.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-sonarjs": "^0.21.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^2.8.8"
   },
   "peerDependencies": {
-    "eslint": "^8.15.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-sonarjs": "^0.13.0",
-    "prettier": "^2.6.2"
-  },
-  "engines": {
-    "node": ">=16.0.0"
+    "eslint": "^8.51.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-sonarjs": "^0.21.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^2.8.8"
   },
   "files": [
     "index.js"
@@ -44,5 +42,10 @@
   "keywords": [
     "eslint",
     "eslint-config"
-  ]
+  ],
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=7"
+  },
+  "packageManager": "pnpm@7.32.2"
 }
