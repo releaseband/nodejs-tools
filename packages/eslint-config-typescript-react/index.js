@@ -42,5 +42,6 @@ module.exports = {
         unnamedComponents: ['arrow-function'],
       },
     ],
+    '@typescript-eslint/no-duplicate-enum-values': 'off',
   },
 };

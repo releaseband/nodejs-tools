@@ -7,13 +7,10 @@
   "main": "tsconfig.json",
   "scripts": {},
   "devDependencies": {
-    "typescript": "^5.0.3"
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
-    "typescript": "^5.0.3"
-  },
-  "engines": {
-    "node": ">=16.0.0"
+    "typescript": "^5.2.2"
   },
   "files": [
     "tsconfig.json"
@@ -32,5 +29,10 @@
   "keywords": [
     "typescript",
     "typescript-config"
-  ]
+  ],
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=7"
+  },
+  "packageManager": "pnpm@7.32.2"
 }

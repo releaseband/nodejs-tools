@@ -30,7 +30,7 @@
     "allowSyntheticDefaultImports": true,
     // error out if import and file system have a casing mismatch. Recommended by TS
     "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
 
     // Type Checking
     // stricter type-checking for stronger correctness. Recommended by TS
