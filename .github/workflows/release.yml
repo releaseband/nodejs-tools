@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   workflow:
-    uses: releaseband/cicd/.github/workflows/release.yml@main
+    uses: releaseband/cicd/.github/workflows/release-monorepo.yml@main
     with:
       release_type: node
     secrets: inherit
