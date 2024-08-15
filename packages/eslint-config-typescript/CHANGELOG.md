@@ -1,5 +1,20 @@
 # @releaseband/eslint-config-typescript
 
+## [2.1.0](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-v2.0.1...eslint-config-typescript-v2.1.0) (2024-08-15)
+
+
+### Features
+
+* **eslint-config-typescript:** init config ([bcf2765](https://github.com/releaseband/nodejs-tools/commit/bcf2765ea953bd881173cbec74e328d0a961846d))
+
+
+### Bug Fixes
+
+* deps updated ([f7400d2](https://github.com/releaseband/nodejs-tools/commit/f7400d25a9d68fdb9e1bcb8412d92ab39ae31009))
+* **eslint-config-typescript:** off rule import/prefer-default-export ([ebcd2d4](https://github.com/releaseband/nodejs-tools/commit/ebcd2d46c3bf0d54c4942cd38ec996a15e192a77))
+* lock versions ([51d21cd](https://github.com/releaseband/nodejs-tools/commit/51d21cdf74e55804d7bc690fc271fa0abee41b49))
+* remove lock deps version and update deps ([1e4b924](https://github.com/releaseband/nodejs-tools/commit/1e4b924798c14b54043b42b18431b78e882d8c82))
+
 ## 2.0.1
 
 ### Patch Changes
