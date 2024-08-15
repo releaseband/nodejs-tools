@@ -1,0 +1,52 @@
+{
+  "include-component-in-tag": true,
+  "include-v-in-tag": true,
+  "packages": {
+    "packages/commitlint-config": {
+      "release-type": "node",
+      "prerelease": false,
+      "commit-search-depth": 50
+    },
+    "packages/eslint-config-typescript-react": {
+      "release-type": "node",
+      "prerelease": false,
+      "commit-search-depth": 50
+    },
+    "packages/eslint-config-typescript": {
+      "release-type": "node",
+      "prerelease": false,
+      "commit-search-depth": 50
+    },
+    "packages/eslint-config": {
+      "release-type": "node",
+      "prerelease": false,
+      "commit-search-depth": 50
+    },
+    "packages/lint-staged-config": {
+      "release-type": "node",
+      "prerelease": false,
+      "commit-search-depth": 50
+    },
+    "packages/markdownlint-config": {
+      "release-type": "node",
+      "prerelease": false,
+      "commit-search-depth": 50
+    },
+    "packages/mrm-preset": {
+      "release-type": "node",
+      "prerelease": false,
+      "commit-search-depth": 50
+    },
+    "packages/prettier-config": {
+      "release-type": "node",
+      "prerelease": false,
+      "commit-search-depth": 50
+    },
+    "packages/typescript-config": {
+      "release-type": "node",
+      "prerelease": false,
+      "commit-search-depth": 50
+    }
+  },
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
+}
