@@ -11,3 +11,5 @@ jobs:
   workflow:
     uses: releaseband/cicd/.github/workflows/pnpm-validate.yml@main
     secrets: inherit
+    with:
+      build-enabled: false
