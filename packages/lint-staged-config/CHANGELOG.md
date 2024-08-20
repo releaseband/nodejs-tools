@@ -1,5 +1,14 @@
 # @releaseband/lint-staged-config
 
+## [1.1.1](https://github.com/releaseband/nodejs-tools/compare/lint-staged-config-v1.1.0...lint-staged-config-v1.1.1) (2024-08-20)
+
+
+### Bug Fixes
+
+* eslint-config Readme refactored ([c12ce25](https://github.com/releaseband/nodejs-tools/commit/c12ce2595ee494b40964ce52d5417f6e3dd63e68))
+* Update index.js ([ee27ae8](https://github.com/releaseband/nodejs-tools/commit/ee27ae81eafecb79eb7c6899b69a95daea709da2))
+* Update README.md ([2611fc8](https://github.com/releaseband/nodejs-tools/commit/2611fc8945680c72762534237a5c6f972f76133c))
+
 ## [1.1.0](https://github.com/releaseband/nodejs-tools/compare/lint-staged-config-v1.0.4...lint-staged-config-v1.1.0) (2024-08-20)
 
 
