@@ -1,5 +1,28 @@
 # @releaseband/eslint-config-typescript-react
 
+## [2.1.0](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-react-v2.0.1...eslint-config-typescript-react-v2.1.0) (2024-08-20)
+
+
+### Features
+
+* **eslint-config-typescript-react:** init config ([1acd792](https://github.com/releaseband/nodejs-tools/commit/1acd7920ee474a02a6bbdcad06bdfd623acbe37a))
+* **eslint-config-typescript-react:** update config ([17a056b](https://github.com/releaseband/nodejs-tools/commit/17a056b0154d92316de478593718e2cefe1856a5))
+
+
+### Bug Fixes
+
+* deps updated ([f7400d2](https://github.com/releaseband/nodejs-tools/commit/f7400d25a9d68fdb9e1bcb8412d92ab39ae31009))
+* **eslint-config-typescript-react:** add dep eslint-config-prettier ([89d38a2](https://github.com/releaseband/nodejs-tools/commit/89d38a289adfa4028e067d7efda78833194c7785))
+* **eslint-config-typescript-react:** add eslint rule no-restricted-exports ([6b64e8d](https://github.com/releaseband/nodejs-tools/commit/6b64e8d9baf4df58d6c47c8e09494af5f2f34770))
+* **eslint-config-typescript-react:** add react/function-component-definition rule ([d4f4077](https://github.com/releaseband/nodejs-tools/commit/d4f4077d36147b555d3f9d3074af8b54bcf7902c))
+* **eslint-config-typescript-react:** disable esint rule react/prop-types ([e69389f](https://github.com/releaseband/nodejs-tools/commit/e69389f8a69b444df6e08afd640fd8118db49780))
+* **eslint-config-typescript-react:** off eslint rule react/require-default-props ([d5167fb](https://github.com/releaseband/nodejs-tools/commit/d5167fbc44265bfe5b0c4494e1b7a2a6a1c3919c))
+* **eslint-config-typescript-react:** off rule import/prefer-default-export ([9acf38c](https://github.com/releaseband/nodejs-tools/commit/9acf38c11bb15cd174a3d6f3eacab49efdd42533))
+* **eslint-config-typescript-react:** update rules in eslint-config-typescript-react ([4dfe9b3](https://github.com/releaseband/nodejs-tools/commit/4dfe9b340cd77e6a01efae7cf5c2e3f0070f68c8))
+* lock versions ([51d21cd](https://github.com/releaseband/nodejs-tools/commit/51d21cdf74e55804d7bc690fc271fa0abee41b49))
+* remove lock deps version and update deps ([1e4b924](https://github.com/releaseband/nodejs-tools/commit/1e4b924798c14b54043b42b18431b78e882d8c82))
+* trigger ([ae93906](https://github.com/releaseband/nodejs-tools/commit/ae93906c1bc8eceed0a64feff85d1dbc2b3ed375))
+
 ## 2.0.1
 
 ### Patch Changes

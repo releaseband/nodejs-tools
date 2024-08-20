@@ -1,5 +1,22 @@
 # @releaseband/typescript-config
 
+## [1.1.0](https://github.com/releaseband/nodejs-tools/compare/typescript-config-v1.0.1...typescript-config-v1.1.0) (2024-08-20)
+
+
+### Features
+
+* **typescript-config:** init config ([75864bd](https://github.com/releaseband/nodejs-tools/commit/75864bd0357df245f71387fe419888530ff144d3))
+
+
+### Bug Fixes
+
+* deps updated ([f7400d2](https://github.com/releaseband/nodejs-tools/commit/f7400d25a9d68fdb9e1bcb8412d92ab39ae31009))
+* lock versions ([51d21cd](https://github.com/releaseband/nodejs-tools/commit/51d21cdf74e55804d7bc690fc271fa0abee41b49))
+* remove lock deps version and update deps ([1e4b924](https://github.com/releaseband/nodejs-tools/commit/1e4b924798c14b54043b42b18431b78e882d8c82))
+* trigger ([ae93906](https://github.com/releaseband/nodejs-tools/commit/ae93906c1bc8eceed0a64feff85d1dbc2b3ed375))
+* **typescript-config:** change config.jsonc on tsconfig.json ([a5b27c0](https://github.com/releaseband/nodejs-tools/commit/a5b27c02dc7bd1d94b44a203181a57c96722d4d7))
+* **typescript-config:** disable exactOptionalPropertyTypes in typescript config ([dc403e3](https://github.com/releaseband/nodejs-tools/commit/dc403e3a23c1a60dcec64a0bb132f09f9f34ba5b))
+
 ## 1.0.1
 
 ### Patch Changes
