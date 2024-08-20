@@ -37,7 +37,7 @@ jobs:
         if: ${{ steps.release.outputs.releases_created }}
         run: |
           echo "Package versions:"
-          find . -name "package.json" -not -path "*/node_modules/*" -exec jq '.version' {} \;
+          find . -name "package.json" -not -path "*/node_modules/*" -exec sh -c 'echo "$(jq -r .name {}) : $(jq -r .version {})"' \;
           
       - name: Publish packages (dry run)
         if: ${{ steps.release.outputs.releases_created }}
