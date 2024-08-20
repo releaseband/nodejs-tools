@@ -1,5 +1,15 @@
 # @releaseband/eslint-config-typescript-react
 
+## [2.1.1](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-react-v2.1.0...eslint-config-typescript-react-v2.1.1) (2024-08-20)
+
+
+### Bug Fixes
+
+* eslint-config Readme refactored ([c12ce25](https://github.com/releaseband/nodejs-tools/commit/c12ce2595ee494b40964ce52d5417f6e3dd63e68))
+* Update index.js ([cd9269f](https://github.com/releaseband/nodejs-tools/commit/cd9269fe5bd38e6504b0d3411ca69124f4b7cff2))
+* Update index.js ([ee27ae8](https://github.com/releaseband/nodejs-tools/commit/ee27ae81eafecb79eb7c6899b69a95daea709da2))
+* Update README.md ([2611fc8](https://github.com/releaseband/nodejs-tools/commit/2611fc8945680c72762534237a5c6f972f76133c))
+
 ## [2.1.0](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-react-v2.0.1...eslint-config-typescript-react-v2.1.0) (2024-08-20)
 
 
