@@ -1,5 +1,12 @@
 # @releaseband/prettier-config
 
+## [1.1.1](https://github.com/releaseband/nodejs-tools/compare/prettier-config-v1.1.0...prettier-config-v1.1.1) (2024-08-20)
+
+
+### Bug Fixes
+
+* eslint-config Readme refactored ([c12ce25](https://github.com/releaseband/nodejs-tools/commit/c12ce2595ee494b40964ce52d5417f6e3dd63e68))
+
 ## [1.1.0](https://github.com/releaseband/nodejs-tools/compare/prettier-config-v1.0.7...prettier-config-v1.1.0) (2024-08-20)
 
 
