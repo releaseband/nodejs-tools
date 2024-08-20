@@ -27,6 +27,18 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Release Please
+        uses: googleapis/release-please-action@v4
+        id: release
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check package versions
+        if: ${{ steps.release.outputs.releases_created }}
+        run: |
+          echo "Package versions:"
+          find . -name "package.json" -not -path "*/node_modules/*" -exec sh -c 'echo "$(jq -r .name {}) : $(jq -r .version {})"' \;
+          
       - name: Publish packages (dry run)
         if: ${{ steps.release.outputs.releases_created }}
         env:
@@ -40,9 +52,3 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pnpm publish -r --no-git-checks
-
-      - name: Release Please
-        uses: googleapis/release-please-action@v4
-        id: release
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
