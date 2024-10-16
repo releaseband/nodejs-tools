@@ -4,13 +4,14 @@
   "description": "typescript shareable config",
   "author": "releaseband",
   "license": "MIT",
+  "type": "module",
   "main": "tsconfig.json",
   "scripts": {},
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "typescript": "~5.5.4"
   },
   "peerDependencies": {
-    "typescript": "^5.2.2"
+    "typescript": "~5.5.4"
   },
   "files": [
     "tsconfig.json"
