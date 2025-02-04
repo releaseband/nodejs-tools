@@ -1,5 +1,16 @@
 # @releaseband/prettier-config
 
+## [2.0.0](https://github.com/releaseband/nodejs-tools/compare/prettier-config-v1.1.1...prettier-config-v2.0.0) (2025-02-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **prettier-config:** major version up
+
+### Features
+
+* **prettier-config:** major version up ([e321e2d](https://github.com/releaseband/nodejs-tools/commit/e321e2d80c410ac8f158231759ee477afb976f5f))
+
 ## [1.1.1](https://github.com/releaseband/nodejs-tools/compare/prettier-config-v1.1.0...prettier-config-v1.1.1) (2024-08-20)
 
 
