@@ -1,5 +1,12 @@
 # @releaseband/commitlint-config
 
+## [1.1.2](https://github.com/releaseband/nodejs-tools/compare/commitlint-config-v1.1.1...commitlint-config-v1.1.2) (2025-02-04)
+
+
+### Bug Fixes
+
+* commitlint update index.js ([3be77fb](https://github.com/releaseband/nodejs-tools/commit/3be77fbb647a3299d738ebb44d096d32adf69896))
+
 ## [1.1.1](https://github.com/releaseband/nodejs-tools/compare/commitlint-config-v1.1.0...commitlint-config-v1.1.1) (2024-08-20)
 
 
