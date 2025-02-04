@@ -8,10 +8,10 @@
   "scripts": {},
   "devDependencies": {
     "@types/prettier": "^2.7.3",
-    "prettier": "^2.8.8"
+    "prettier": "^3.4.2"
   },
   "peerDependencies": {
-    "prettier": "^2.8.8"
+    "prettier": "^3.4.2"
   },
   "files": [
     "index.js",
