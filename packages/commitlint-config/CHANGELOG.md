@@ -1,5 +1,12 @@
 # @releaseband/commitlint-config
 
+## [2.0.0](https://github.com/releaseband/nodejs-tools/compare/commitlint-config-v1.1.2...commitlint-config-v2.0.0) (2025-02-04)
+
+
+### Miscellaneous Chores
+
+* **eslint-config:** release 2.0.0 ([4a73a32](https://github.com/releaseband/nodejs-tools/commit/4a73a322b8e56753eed9b6298018b850e9f6c9d8))
+
 ## [1.1.2](https://github.com/releaseband/nodejs-tools/compare/commitlint-config-v1.1.1...commitlint-config-v1.1.2) (2025-02-04)
 
 

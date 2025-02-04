@@ -1,5 +1,26 @@
 # @releaseband/lint-staged-config
 
+## [2.0.0](https://github.com/releaseband/nodejs-tools/compare/lint-staged-config-v1.1.1...lint-staged-config-v2.0.0) (2025-02-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **eslint-config:** major version up
+
+### Features
+
+* **eslint-config:** major version up ([d7becc1](https://github.com/releaseband/nodejs-tools/commit/d7becc17bd180c8a462f18cef056104cb525d5a4))
+
+
+### Bug Fixes
+
+* **lint-staged-config:** deps update ([323e554](https://github.com/releaseband/nodejs-tools/commit/323e554f199a38f14f745e4149eb54545cdaada4))
+
+
+### Miscellaneous Chores
+
+* **eslint-config:** release 2.0.0 ([4a73a32](https://github.com/releaseband/nodejs-tools/commit/4a73a322b8e56753eed9b6298018b850e9f6c9d8))
+
 ## [1.1.1](https://github.com/releaseband/nodejs-tools/compare/lint-staged-config-v1.1.0...lint-staged-config-v1.1.1) (2024-08-20)
 
 
