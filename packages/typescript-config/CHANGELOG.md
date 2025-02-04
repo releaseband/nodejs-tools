@@ -1,5 +1,12 @@
 # @releaseband/typescript-config
 
+## [2.0.0](https://github.com/releaseband/nodejs-tools/compare/typescript-config-v1.1.1...typescript-config-v2.0.0) (2025-02-04)
+
+
+### Miscellaneous Chores
+
+* **eslint-config:** release 2.0.0 ([4a73a32](https://github.com/releaseband/nodejs-tools/commit/4a73a322b8e56753eed9b6298018b850e9f6c9d8))
+
 ## [1.1.1](https://github.com/releaseband/nodejs-tools/compare/typescript-config-v1.1.0...typescript-config-v1.1.1) (2024-08-20)
 
 

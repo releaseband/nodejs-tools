@@ -1,5 +1,12 @@
 # @releaseband/mrm-preset
 
+## [2.0.0](https://github.com/releaseband/nodejs-tools/compare/mrm-preset-v1.14.1...mrm-preset-v2.0.0) (2025-02-04)
+
+
+### Miscellaneous Chores
+
+* **eslint-config:** release 2.0.0 ([4a73a32](https://github.com/releaseband/nodejs-tools/commit/4a73a322b8e56753eed9b6298018b850e9f6c9d8))
+
 ## [1.14.1](https://github.com/releaseband/nodejs-tools/compare/mrm-preset-v1.14.0...mrm-preset-v1.14.1) (2024-08-20)
 
 
