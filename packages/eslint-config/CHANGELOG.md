@@ -1,5 +1,16 @@
 # @releaseband/eslint-config
 
+## [2.0.0](https://github.com/releaseband/nodejs-tools/compare/eslint-config-v1.1.1...eslint-config-v2.0.0) (2025-02-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **eslint-config:** update major version
+
+### Features
+
+* **eslint-config:** update major version ([56f9761](https://github.com/releaseband/nodejs-tools/commit/56f9761e88dcdb3b414ab7512913112f6b985cf0))
+
 ## [1.1.1](https://github.com/releaseband/nodejs-tools/compare/eslint-config-v1.1.0...eslint-config-v1.1.1) (2024-08-20)
 
 
