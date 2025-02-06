@@ -1,5 +1,16 @@
 # @releaseband/eslint-config-typescript
 
+## [3.0.0](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-v2.1.1...eslint-config-typescript-v3.0.0) (2025-02-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* **eslint-config-typescript:** update major version
+
+### Features
+
+* **eslint-config-typescript:** update major version ([40fefbf](https://github.com/releaseband/nodejs-tools/commit/40fefbf360b72cb6eb25ccd2b7050788b151cb75))
+
 ## [2.1.1](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-v2.1.0...eslint-config-typescript-v2.1.1) (2024-08-20)
 
 

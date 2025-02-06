@@ -1,5 +1,12 @@
 # @releaseband/eslint-config
 
+## [2.0.1](https://github.com/releaseband/nodejs-tools/compare/eslint-config-v2.0.0...eslint-config-v2.0.1) (2025-02-06)
+
+
+### Bug Fixes
+
+* **eslint-config:** useless rule,deps update ([29c1a4e](https://github.com/releaseband/nodejs-tools/commit/29c1a4e71f16e9d724748de6ab50b1133e8fc373))
+
 ## [2.0.0](https://github.com/releaseband/nodejs-tools/compare/eslint-config-v1.1.1...eslint-config-v2.0.0) (2025-02-05)
 
 
