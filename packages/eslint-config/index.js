@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import eslint from '@eslint/js';
 import importPlugin from 'eslint-plugin-import';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
