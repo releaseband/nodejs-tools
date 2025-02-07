@@ -1,6 +1,6 @@
 {
   "name": "@releaseband/eslint-config-typescript-react",
-  "version": "3.0.0-alpha.4",
+  "version": "3.0.0",
   "description": "eslint shareable config",
   "author": "releaseband",
   "license": "MIT",
