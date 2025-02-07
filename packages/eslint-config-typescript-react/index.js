@@ -1,47 +1,76 @@
-module.exports = {
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    'airbnb',
-    'airbnb/hooks',
-    'airbnb-typescript',
-    'plugin:react/jsx-runtime',
-    'plugin:prettier/recommended',
-    'plugin:sonarjs/recommended',
-  ],
-  plugins: ['simple-import-sort', 'tsdoc'],
-  rules: {
-    'import/prefer-default-export': 'off',
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        devDependencies: [
-          '**/*.setup.js',
-          '**/*.setup.ts',
-          '**/*.config.js',
-          '**/*.config.ts',
-          '**/*.test.ts',
-          '**/*.test.tsx',
-          '**/*.spec.ts',
-          '**/*.spec.tsx',
-          '**/*.stories.ts',
-          '**/*.stories.tsx',
-        ],
-      },
+import eslint from '@eslint/js';
+import importPlugin from 'eslint-plugin-import';
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
+import react from 'eslint-plugin-react';
+import reactHooks from 'eslint-plugin-react-hooks';
+import simpleImportSort from 'eslint-plugin-simple-import-sort';
+import sonarjs from 'eslint-plugin-sonarjs';
+import globals from 'globals';
+import tseslint from 'typescript-eslint';
+
+export default tseslint.config(
+  eslint.configs.recommended,
+  eslintPluginPrettierRecommended,
+  sonarjs.configs.recommended,
+  importPlugin.flatConfigs.recommended,
+  tseslint.configs.recommended,
+  {
+    files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
+    ignores: [
+      '**/node_modules/*',
+      '**/dist/*',
+      '**/build/*',
+      '**/public/*.js',
+      '**/.parcel-cache/*',
+      '**/.idea/*',
+      '**/.vscode/*',
+      '**.history/*',
+      '*.sublime-project',
+      '*.sublime-workspace',
     ],
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error',
-    'tsdoc/syntax': 'warn',
-    'react/prop-types': 'off',
-    'react/require-default-props': 'off',
-    'react/function-component-definition': [
-      'error',
-      {
-        namedComponents: ['function-declaration', 'arrow-function'],
-        unnamedComponents: ['arrow-function'],
-      },
-    ],
-    '@typescript-eslint/no-duplicate-enum-values': 'off',
   },
-};
+  {
+    files: ['.lintstagedrc.js'],
+    rules: {
+      'no-undef': 'off',
+    },
+  },
+  {
+    ...react.configs.flat.recommended,
+    files: ['**/*.{js,mjs,cjs,ts,tsx,jsx,mts}'],
+    languageOptions: {
+      ecmaVersion: 2020,
+      globals: { ...globals.browser, ...globals.node },
+    },
+    plugins: {
+      react,
+      'simple-import-sort': simpleImportSort,
+      'react-hooks': reactHooks,
+    },
+    rules: {
+      'prefer-const': 'error',
+      'sonarjs/todo-tag': 'off',
+      'sonarjs/no-commented-code': 'off',
+      'sonarjs/deprecation': 'warn',
+      'sonarjs/pseudo-random': 'off',
+      'sonarjs/slow-regex': 'off',
+      'import/no-named-as-default-member': 'off',
+      'import/no-unresolved': 'off',
+      'import/named': 'off',
+      'import/prefer-default-export': 'off',
+      'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+      'import/order': ['error', { alphabetize: { order: 'asc', caseInsensitive: true } }],
+      ...reactHooks.configs.recommended.rules,
+      'react/prop-types': 'off',
+      'react/require-default-props': 'off',
+      'react/function-component-definition': [
+        'error',
+        {
+          namedComponents: ['function-declaration', 'arrow-function'],
+          unnamedComponents: ['arrow-function'],
+        },
+      ],
+      '@typescript-eslint/no-duplicate-enum-values': 'off',
+    },
+  },
+);
