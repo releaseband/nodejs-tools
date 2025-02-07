@@ -34,7 +34,7 @@ export default tseslint.config(
     },
   },
   {
-    files: ['**/*.{js,mjs,cjs,ts,tsx,jsx}'],
+    files: ['**/*.{js,mjs,cjs,ts,tsx,jsx,mts}'],
     languageOptions: {
       ecmaVersion: 2020,
       globals: { ...globals.browser, ...globals.node },
@@ -47,6 +47,8 @@ export default tseslint.config(
       'sonarjs/todo-tag': 'off',
       'sonarjs/no-commented-code': 'off',
       'sonarjs/deprecation': 'warn',
+      'sonarjs/pseudo-random': 'off',
+      'sonarjs/slow-regex': 'off',
       'import/no-named-as-default-member': 'off',
       'import/no-unresolved': 'off',
       'import/named': 'off',
