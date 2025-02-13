@@ -27,6 +27,9 @@ export default tseslint.config(
       '**.history/*',
       '*.sublime-project',
       '*.sublime-workspace',
+      '.github',
+      '.husky',
+      'locales',
     ],
   },
   {
@@ -105,6 +108,8 @@ export default tseslint.config(
       '@typescript-eslint/no-unused-vars': ['warn', { caughtErrors: 'none' }],
       '@typescript-eslint/dot-notation': 'error',
       '@typescript-eslint/no-unsafe-argument': 'error',
+      //slow performance
+      'import/namespace': 'off',
     },
   },
 );
