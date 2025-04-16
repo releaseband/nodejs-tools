@@ -1,9 +1,9 @@
 import eslint from '@eslint/js';
 import importPlugin from 'eslint-plugin-import';
+import perfectionist from 'eslint-plugin-perfectionist';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
-import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import sonarjs from 'eslint-plugin-sonarjs';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
@@ -47,10 +47,14 @@ export default tseslint.config(
     },
     plugins: {
       react,
-      'simple-import-sort': simpleImportSort,
+      perfectionist,
       'react-hooks': reactHooks,
     },
     rules: {
+      'perfectionist/sort-imports': 'error',
+      'perfectionist/sort-named-imports': 'error',
+      'perfectionist/sort-exports': 'error',
+      'perfectionist/sort-named-exports': 'error',
       //eslint
       'prefer-const': 'error',
       'no-void': 'error',
@@ -89,7 +93,7 @@ export default tseslint.config(
       'import/named': 'off',
       'import/prefer-default-export': 'off',
       'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
-      'import/order': ['error', { alphabetize: { order: 'asc', caseInsensitive: true } }],
+      'import/order': 'off',
       ...reactHooks.configs.recommended.rules,
       'react/prop-types': 'off',
       'react/require-default-props': 'off',
