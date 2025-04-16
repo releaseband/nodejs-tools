@@ -1,5 +1,12 @@
 # @releaseband/eslint-config-typescript-react
 
+## [3.1.0](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-react-v3.0.2...eslint-config-typescript-react-v3.1.0) (2025-04-16)
+
+
+### Features
+
+* **eslint-config-typescript-react:** switch to perfectionist plugin ([#107](https://github.com/releaseband/nodejs-tools/issues/107)) ([de8edea](https://github.com/releaseband/nodejs-tools/commit/de8edea02efbe40737d17c13555e8e68b2fefac3))
+
 ## [3.0.2](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-react-v3.0.1...eslint-config-typescript-react-v3.0.2) (2025-02-13)
 
 
