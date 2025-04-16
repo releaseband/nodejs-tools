@@ -110,7 +110,6 @@ importers:
       eslint-plugin-prettier: ^5.2.3
       eslint-plugin-react: ^7.37.4
       eslint-plugin-react-hooks: ^5.1.0
-      eslint-plugin-simple-import-sort: ^12.1.1
       eslint-plugin-sonarjs: ^3.0.1
       globals: ^15.14.0
       prettier: ^3.4.2
@@ -126,7 +125,6 @@ importers:
       eslint-plugin-prettier: 5.2.3_ussjjgipmfx3hlmxkqkfa3mmwe
       eslint-plugin-react: 7.37.4_eslint@9.19.0
       eslint-plugin-react-hooks: 5.1.0_eslint@9.19.0
-      eslint-plugin-simple-import-sort: 12.1.1_eslint@9.19.0
       eslint-plugin-sonarjs: 3.0.1_eslint@9.19.0
       globals: 15.14.0
       prettier: 3.4.2
