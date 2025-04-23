@@ -1,5 +1,12 @@
 # @releaseband/eslint-config-typescript-react
 
+## [3.1.1](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-react-v3.1.0...eslint-config-typescript-react-v3.1.1) (2025-04-23)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript-react:** update deps ([#110](https://github.com/releaseband/nodejs-tools/issues/110)) ([1680cc6](https://github.com/releaseband/nodejs-tools/commit/1680cc64364000edec62a1751ca08d7835a9efc0))
+
 ## [3.1.0](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-react-v3.0.2...eslint-config-typescript-react-v3.1.0) (2025-04-16)
 
 
