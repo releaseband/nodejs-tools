@@ -1,5 +1,12 @@
 # @releaseband/eslint-config-typescript-react
 
+## [3.1.2](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-react-v3.1.1...eslint-config-typescript-react-v3.1.2) (2025-06-04)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript-react:** add eslint rule restricting Math.random() ([#112](https://github.com/releaseband/nodejs-tools/issues/112)) ([83910dc](https://github.com/releaseband/nodejs-tools/commit/83910dc46f44308a2905a1d2586a18f9da735f5e))
+
 ## [3.1.1](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-react-v3.1.0...eslint-config-typescript-react-v3.1.1) (2025-04-23)
 
 

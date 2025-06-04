@@ -1,6 +1,6 @@
 {
     "packages/commitlint-config": "1.1.2",
-    "packages/eslint-config-typescript-react": "3.1.1",
+    "packages/eslint-config-typescript-react": "3.1.2",
     "packages/eslint-config-typescript": "3.0.1",
     "packages/eslint-config": "2.0.1",
     "packages/lint-staged-config": "1.1.1",
