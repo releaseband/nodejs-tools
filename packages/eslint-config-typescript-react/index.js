@@ -68,6 +68,15 @@ export default tseslint.config(
       'no-console': 'warn',
       eqeqeq: ['error', 'smart'],
       'no-else-return': 'error',
+      'no-restricted-properties': [
+        'error',
+        {
+          object: 'Math',
+          property: 'random',
+          message:
+            'Use Random.random() from mango-math (version ^0.6.1 (https://github.com/releaseband/mango/pull/1116)) instead.',
+        },
+      ],
       //sonarjs
       'sonarjs/todo-tag': 'off',
       'sonarjs/no-commented-code': 'off',
