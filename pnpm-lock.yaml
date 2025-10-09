@@ -4,33 +4,33 @@ importers:
 
   .:
     specifiers:
-      '@commitlint/cli': ^16.2.4
+      '@commitlint/cli': ^16.3.0
       '@commitlint/cz-commitlint': ^16.2.4
       '@releaseband/commitlint-config': ^1.1.0
       '@releaseband/eslint-config': workspace:*
       '@releaseband/lint-staged-config': ^1.1.0
       '@releaseband/markdownlint-config': ^2.1.0
       '@releaseband/prettier-config': workspace:*
-      commitizen: ^4.2.4
+      commitizen: ^4.3.1
       eslint: ^9.19.0
       husky: ^8.0.0
-      inquirer: ^8.2.4
+      inquirer: ^8.2.7
       is-ci: ^3.0.1
       lint-staged: ^16.2.3
       markdownlint-cli: ^0.31.1
       prettier: ^3.4.2
     devDependencies:
       '@commitlint/cli': 16.3.0
-      '@commitlint/cz-commitlint': 16.3.0_cjw5pe72nssrij6omrdzc7jmku
+      '@commitlint/cz-commitlint': 16.3.0_t4cdc4mnuufpnaksltkfvbp7fy
       '@releaseband/commitlint-config': link:packages/commitlint-config
       '@releaseband/eslint-config': link:packages/eslint-config
       '@releaseband/lint-staged-config': link:packages/lint-staged-config
       '@releaseband/markdownlint-config': link:packages/markdownlint-config
       '@releaseband/prettier-config': link:packages/prettier-config
-      commitizen: 4.3.0
+      commitizen: 4.3.1
       eslint: 9.19.0
       husky: 8.0.3
-      inquirer: 8.2.6
+      inquirer: 8.2.7
       is-ci: 3.0.1
       lint-staged: 16.2.3
       markdownlint-cli: 0.31.1
@@ -1402,7 +1402,7 @@ packages:
     dev: true
     optional: true
 
-  /@commitlint/cz-commitlint/16.3.0_cjw5pe72nssrij6omrdzc7jmku:
+  /@commitlint/cz-commitlint/16.3.0_t4cdc4mnuufpnaksltkfvbp7fy:
     resolution: {integrity: sha512-Q+QLQmSIHEgzI18F3/7mqq3vwL0IN9k+Tjp9Um4adFnRXMtUTnEa0er0CXAXxWvoA/x/6nt3t7faAv2HugDIGg==}
     engines: {node: '>=v12'}
     peerDependencies:
@@ -1413,8 +1413,8 @@ packages:
       '@commitlint/load': 16.3.0
       '@commitlint/types': 16.2.1
       chalk: 4.1.2
-      commitizen: 4.3.0
-      inquirer: 8.2.6
+      commitizen: 4.3.1
+      inquirer: 8.2.7
       lodash: 4.17.21
       word-wrap: 1.2.5
     transitivePeerDependencies:
@@ -1778,6 +1778,19 @@ packages:
   /@humanwhocodes/retry/0.4.2:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
+    dev: true
+
+  /@inquirer/external-editor/1.0.2:
+    resolution: {integrity: sha512-yy9cOoBnx58TlsPrIxauKIFQTiyH+0MK4e97y4sV9ERbI+zDxw7i2hxHLCIEGIE/8PPvDxGhgzIOTSOWcs6/MQ==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@types/node': '>=18'
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+    dependencies:
+      chardet: 2.1.0
+      iconv-lite: 0.7.0
     dev: true
 
   /@jridgewell/gen-mapping/0.3.8:
@@ -2685,6 +2698,10 @@ packages:
     resolution: {integrity: sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==}
     dev: true
 
+  /chardet/2.1.0:
+    resolution: {integrity: sha512-bNFETTG/pM5ryzQ9Ad0lJOTa6HWD/YsScAR3EnCPZRPlQh77JocYktSHOUHelyhm8IARL+o4c4F1bP5KVOjiRA==}
+    dev: true
+
   /ci-info/3.9.0:
     resolution: {integrity: sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ==}
     engines: {node: '>=8'}
@@ -2798,8 +2815,8 @@ packages:
       repeat-string: 1.6.1
     dev: false
 
-  /commitizen/4.3.0:
-    resolution: {integrity: sha512-H0iNtClNEhT0fotHvGV3E9tDejDeS04sN1veIebsKYGMuGscFaswRoYJKmT3eW85eIJAs0F28bG2+a/9wCOfPw==}
+  /commitizen/4.3.1:
+    resolution: {integrity: sha512-gwAPAVTy/j5YcOOebcCRIijn+mSjWJC+IYKivTu6aG8Ei/scoXgfsMRnuAk6b0GRste2J4NGxVdMN3ZpfNaVaw==}
     engines: {node: '>= 12'}
     hasBin: true
     dependencies:
@@ -2967,7 +2984,7 @@ packages:
     engines: {node: '>= 10'}
     dependencies:
       chalk: 2.4.2
-      commitizen: 4.3.0
+      commitizen: 4.3.1
       conventional-commit-types: 3.0.0
       lodash.map: 4.6.0
       longest: 2.0.1
@@ -4233,6 +4250,7 @@ packages:
 
   /glob/7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -4412,6 +4430,13 @@ packages:
       safer-buffer: 2.1.2
     dev: true
 
+  /iconv-lite/0.7.0:
+    resolution: {integrity: sha512-cf6L2Ds3h57VVmkZe+Pn+5APsT7FpqJtEhhieDCvrE2MK5Qk9MyffgQyuxQTm6BChfeZNtcOLHp9IcWRVcIcBQ==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      safer-buffer: 2.1.2
+    dev: true
+
   /ieee754/1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
     dev: true
@@ -4451,6 +4476,7 @@ packages:
 
   /inflight/1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
@@ -4489,15 +4515,15 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
-  /inquirer/8.2.6:
-    resolution: {integrity: sha512-M1WuAmb7pn9zdFRtQYk26ZBoY043Sse0wVDdk4Bppr+JOXyQYybdtvK+l9wUibhtjdjvtoiNy8tk+EgsYIUqKg==}
+  /inquirer/8.2.7:
+    resolution: {integrity: sha512-UjOaSel/iddGZJ5xP/Eixh6dY1XghiBw4XK13rCCIJcJfyhhoul/7KhLLUGtebEj6GDYM6Vnx/mVsjx2L/mFIA==}
     engines: {node: '>=12.0.0'}
     dependencies:
+      '@inquirer/external-editor': 1.0.2
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       cli-cursor: 3.1.0
       cli-width: 3.0.0
-      external-editor: 3.1.0
       figures: 3.2.0
       lodash: 4.17.21
       mute-stream: 0.0.8
@@ -4508,6 +4534,8 @@ packages:
       strip-ansi: 6.0.1
       through: 2.3.8
       wrap-ansi: 6.2.0
+    transitivePeerDependencies:
+      - '@types/node'
     dev: true
 
   /internal-slot/1.1.0:
