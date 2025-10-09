@@ -1,5 +1,12 @@
 # @releaseband/commitlint-config
 
+## [1.1.3](https://github.com/releaseband/nodejs-tools/compare/commitlint-config-v1.1.2...commitlint-config-v1.1.3) (2025-10-09)
+
+
+### Bug Fixes
+
+* **commitlint-config:** deps update ([#120](https://github.com/releaseband/nodejs-tools/issues/120)) ([f6b097e](https://github.com/releaseband/nodejs-tools/commit/f6b097e42962056d18a6abf38a2d2735dc772aa1))
+
 ## [1.1.2](https://github.com/releaseband/nodejs-tools/compare/commitlint-config-v1.1.1...commitlint-config-v1.1.2) (2025-02-04)
 
 
