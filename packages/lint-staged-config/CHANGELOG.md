@@ -1,5 +1,12 @@
 # @releaseband/lint-staged-config
 
+## [1.1.2](https://github.com/releaseband/nodejs-tools/compare/lint-staged-config-v1.1.1...lint-staged-config-v1.1.2) (2025-10-09)
+
+
+### Bug Fixes
+
+* **lint-staged-config:** deps update ([#118](https://github.com/releaseband/nodejs-tools/issues/118)) ([d3d098b](https://github.com/releaseband/nodejs-tools/commit/d3d098befac7275ff2765875c213f1dc8e4afe87))
+
 ## [1.1.1](https://github.com/releaseband/nodejs-tools/compare/lint-staged-config-v1.1.0...lint-staged-config-v1.1.1) (2024-08-20)
 
 
