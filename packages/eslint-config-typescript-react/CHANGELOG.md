@@ -1,5 +1,12 @@
 # @releaseband/eslint-config-typescript-react
 
+## [3.4.0](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-react-v3.3.0...eslint-config-typescript-react-v3.4.0) (2025-10-31)
+
+
+### Features
+
+* **eslint-config-typescript-react:** eslint-plugin-compat temporarily removed ([#123](https://github.com/releaseband/nodejs-tools/issues/123)) ([ba33b5c](https://github.com/releaseband/nodejs-tools/commit/ba33b5c0b7ad8b07de97bf433e87772c12956a33))
+
 ## [3.3.0](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-react-v3.2.0...eslint-config-typescript-react-v3.3.0) (2025-10-09)
 
 
