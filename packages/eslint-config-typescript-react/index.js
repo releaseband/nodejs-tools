@@ -1,5 +1,4 @@
 import eslint from '@eslint/js';
-import compat from 'eslint-plugin-compat';
 import importPlugin from 'eslint-plugin-import';
 import perfectionist from 'eslint-plugin-perfectionist';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
@@ -8,7 +7,6 @@ import reactHooks from 'eslint-plugin-react-hooks';
 import sonarjs from 'eslint-plugin-sonarjs';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
-const compatConfig = compat.configs['flat/recommended'];
 
 export default tseslint.config(
   eslint.configs.recommended,
@@ -16,7 +14,6 @@ export default tseslint.config(
   sonarjs.configs.recommended,
   importPlugin.flatConfigs.recommended,
   tseslint.configs.recommended,
-  compatConfig,
   {
     files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
     ignores: [
