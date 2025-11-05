@@ -1,5 +1,12 @@
 # @releaseband/eslint-config-typescript-react
 
+## [3.4.1](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-react-v3.4.0...eslint-config-typescript-react-v3.4.1) (2025-11-05)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript-react:** update lint rule to keep imports first ([#125](https://github.com/releaseband/nodejs-tools/issues/125)) ([3417156](https://github.com/releaseband/nodejs-tools/commit/34171564da634a466c7cc1c4868aff6d70c63b00))
+
 ## [3.4.0](https://github.com/releaseband/nodejs-tools/compare/eslint-config-typescript-react-v3.3.0...eslint-config-typescript-react-v3.4.0) (2025-10-31)
 
 
