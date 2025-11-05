@@ -97,6 +97,7 @@ export default tseslint.config(
       'sonarjs/different-types-comparison': 'off',
       'sonarjs/no-redundant-optional': 'off',
       //import plugin
+      'import/first': ['error'],
       'import/no-named-as-default-member': 'off',
       'import/no-unresolved': 'off',
       'import/named': 'off',
